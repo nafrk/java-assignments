@@ -1,0 +1,12 @@
+1.compile server
+javac ChatServer.java
+
+2.run server
+java ChatServer
+
+
+3.compile client
+javac --module-path "C:\javafx-sdk-25.0.1\lib" --add-modules javafx.controls ChatClientGUI.java
+
+4.run client
+java --module-path "C:\javafx-sdk-25.0.1\lib" --add-modules javafx.controls ChatClientGUI
